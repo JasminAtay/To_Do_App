@@ -27,3 +27,10 @@ function deleteBtn(e){
         this.parentNode.removeChild(this)
     }
 }
+
+function deleteAll(){
+    let element = document.getElementById('myUL');
+    while(element.firstChild){
+        element.removeChild(element.firstChild);
+    }
+}

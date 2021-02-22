@@ -60,3 +60,9 @@ body {
     text-decoration: line-through;
     text-decoration-color: rgb(34,32,32);
 }
+#deleteBtn{
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    outline: none;
+}
